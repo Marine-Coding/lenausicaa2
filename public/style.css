@@ -1,0 +1,157 @@
+#bg-accueil {
+    background: url("images/bg-accueil.jpg");
+    background-position: center center; /* Make image center */
+    background-attachment: fixed; /* Make image fixed */
+    background-repeat: no-repeat; /* Not repeat images */
+    background-size: auto; /* Set background size auto */
+    height: 650px;
+
+    /* Media query for mobile devices  */
+    @media only screen and (max-width: 767px) {
+        body {
+          background-image: url("images/bg-accueil.jpg");
+        }
+      }
+  }
+
+  /* Modification top-navbar*/
+  .top-navbar {
+      font-size: 15px;
+  }
+  /* Fin Modification top-navbar*/
+
+  /* Modification navbar2*/
+  .navbar2 {
+      font-size: 20px;
+  }
+  /* Fin Modification navbar2*/
+
+  /* Modification texte-accueil */
+
+  .section-booking {
+      margin-top: 100px;
+  }
+
+  .texte-accueil h1 {
+    font-size: 50px;
+    color: white;
+  }
+
+  .texte-accueil p {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+  }
+
+  /* Fin Modification texte-accueil */
+
+  /* Formulaire Booking */
+  
+  .formulaire-booking {
+    background-color: white;
+    color: #00145B;
+    padding: 30px 20px;
+    -webkit-box-shadow: 0px 5px 20px -5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 5px 20px -5px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+  }
+  
+  .booking-form .form-group {
+    position: relative;
+    margin-bottom: px;
+  }
+  
+  .formulaire-booking .form-control {
+    background-color: skyblue;
+    border-radius: 4px;
+    height: 40px;
+    color: #00145B;
+    font-size: 14px;
+  }
+  /* Fin Formulaire Booking */
+
+  /* Modification contenu-apropos */
+  .contenu-apropos {
+      margin-top: 100px;
+  }
+  /* Fin Modification contenu-apropos */
+
+  /*Modification des cartes prestation*/
+.card-prestation {
+    border: none;
+    outline: none;
+    -webkit-box-shadow: 10px 10px 16px -17px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 16px -17px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 16px -17px rgba(0,0,0,0.75);
+  }
+  
+  .card-prestation p {
+    color: gray;
+  }
+  
+  .circle {
+    width: 70px;
+    height: 70px;
+    background-color: lightskyblue;
+    color: #00145B;
+    padding: 12px;
+    font-size: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  
+  .card-prestation:hover .circle{
+    background-color: #00145B;
+    color: mediumaquamarine;
+    transition: 0.5s;
+  }
+  /*Fin de la modification des cartes prestation*/
+
+  /*Modification Avis-clients*/
+/*Setting img-avis as background image on carousel*/
+.bg-avis {
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat; background-size: cover;
+    background-image: url();
+    height: 720px;
+  }
+  
+  .img-user {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .item-avis {
+    margin-bottom: 23%;
+  }
+  /*Fin modification Avis-clients*/
+
+  /*Modification formulaire de "contact*/
+  .formulaire-contact {
+      margin-top: 100px;
+      padding: 10%;
+  }
+  /*Fin formulaire de "contact*/
+
+  /*Modification Footer*/
+    .contenu-footer {
+    margin-top: 100px;
+  }
+  
+    .contenu-footer ul li {
+    list-style-type: none;
+  }
+  
+    .contenu-footer a:hover, a:focus {
+    text-decoration: none;
+    outline: none;
+    color: #00145B;
+  }
+  
+    .contenu-footer ul {
+      padding-left: 0;
+  }
+  
+  /*Fin Modification Footer*/

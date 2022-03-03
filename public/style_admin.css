@@ -1,0 +1,17 @@
+#sidebar-wrapper {
+    min-height: 100vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(2,132,181,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+#sidebar-wrapper .list-group {
+    width: 15rem;
+  }
+
+#page-content-wrapper {
+    padding: 20px;
+}
+
+.home-text {
+    color: #00145B;
+}
